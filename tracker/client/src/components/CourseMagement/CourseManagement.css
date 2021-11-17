@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,700;1,100;1,300;1,400;1,700&family=Raleway:ital,wght@0,700;0,800;1,500;1,600;1,700&display=swap');
+#course-management-container{
+    width:82.4%;
+    height:auto;
+    background: #F7F8FC;  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#course-management-title-bar{
+    width:94.1%; ;
+    margin-top: 26px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+#coursework-title{
+  
+    height: 34px;
+    left: 0px;
+    right: 351px;
+    top: calc(50% - 34px/2 + 1px);
+   
+    font-family: Raleway;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    height:34px;
+    width:771px;
+
+}
+#github-photo{
+    align-self: flex-end;
+    width:50px;
+    height:50px;
+}
+#github-photo img{
+    width:50px;
+    height:50px;
+}
+#course-management-content{
+    width: 1122px;
+    width:94.1%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.7rem;
+    margin-top: 4rem;
+}
+#course-management-content-title-bar{
+    width: 1058px;
+    width:94%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+     margin-top: 2rem; 
+}
+#sub-title{
+    width: 286px;
+    height: 21px;
+    left: 32px;
+    top: 32px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+#drop-down{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background: #2A44AF;
+    width:133px;
+    height:35px;
+    background: #2A44AF;
+    
+}
+#drop-down-list{
+    width:133px;
+}
+#drop-down-list a{
+    text-decoration: none;
+}
+.drop-down-list-item{
+    width:133px;
+    height:35px;
+    text-decoration: none;
+    color:#767676;
+}
+#drop-down-container{
+    width: 163px;
+    height: auto;
+    background: #FFFFFF;
+    display:flex;
+    flex-direction: column;
+   
+}

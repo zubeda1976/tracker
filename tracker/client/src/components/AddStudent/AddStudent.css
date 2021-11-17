@@ -1,0 +1,71 @@
+#add-student-container{
+  width: 82.4%;
+  height: 100vh;
+  /* grayscale / bg */
+  background: #f7f8fc;
+  display: flex;
+  flex-direction: column;
+}
+.addStudent {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  padding-left: 25%;
+  padding-top: 5%;
+}
+
+.back {
+  margin: 15px;
+  border: none;
+  background: none;
+  color: #1e90ff;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  line-height: 22px;
+}
+
+input {
+  width: 543px;
+  height: 40px;
+}
+
+label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 5px 0;
+  padding-top: 15px;
+  color: #767676;
+}
+
+.studentConfirmation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px;
+  margin: 20px 0 10px 10px;
+}
+
+.addStudentButton {
+  width: 164px;
+  height: 40px;
+  background: #3455db;
+  color: white;
+  border: none;
+}
+
+.cancelStudentAdd {
+  width: 164px;
+  height: 40px;
+  background: none;
+  color: #3455db;
+  border: none;
+}
+
+.container{
+  width:82.4%;
+  height:100vh;
+}

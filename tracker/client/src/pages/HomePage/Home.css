@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,700;1,100;1,300;1,400;1,700&family=Raleway:ital,wght@0,700;0,800;1,500;1,600;1,700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#home{ 
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    background: #F7F8FC;
+}
+#cyfLogo{
+    width: 178px;
+    height: 52px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 45px;
+   
+}
+#cyfLogo img{
+    width: 178px;
+    height: 52px;
+    display: flex;
+}
+#login{
+    position: absolute;
+    width: 384.01px;
+    height: 311px;
+    left: 477px;
+    top: 215px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#para1{
+    position: absolute;
+    width: 369px;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+    /* Base / XXL */
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333; 
+}
+
+#para2{
+    position: absolute;
+    width: 369px;
+    height: 53px;
+    left: 0px;
+    top: 99px;    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #767676;
+}
+
+ #btn-login{
+    position: absolute;
+    width: 382px;
+    height: 40px;
+    left: 0px;
+    top: 187px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    background: #EE4344;
+    border-radius: 2px;;
+}
+#btn-login:hover{
+    cursor: pointer;
+}
+#img-box{
+    position: static;
+    width: 18px;
+    height: 18px;
+    left: 114.5px;
+    top: 11px;
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+
+}
+#img-box img{
+    position: absolute;
+
+}
+#btn-text{
+    position: static;
+    width: 120px;
+    height: 18px;
+    left: 138.5px;
+    top: 11px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 6px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#footer{
+    width: 100vw;
+    background : #333333;
+    display:flex;
+    justify-content: flex-start;
+}
+#footer p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+
+

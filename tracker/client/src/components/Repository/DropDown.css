@@ -1,0 +1,14 @@
+
+#vertical-icons-container{
+    width: 30px;
+    height: 30px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    
+}
+#vertical-icons-container:hover{
+    border:1px solid #A9A9A9;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,700;1,100;1,300;1,400;1,700&family=Raleway:ital,wght@0,700;0,800;1,500;1,600;1,700&display=swap');
+#sidebar-container{
+    margin-top: 0px;
+    background: #ECEDF0;
+    width:17.6%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    width: 178px;
+    width: 170px;
+    height: 52px;
+    height: 50px;
+    margin-top: 0.6rem;
+    margin-left: 12px;
+    margin-bottom: 0.5rem;
+}
+
+
+.sidebar-rows{
+  
+    margin-bottom: 0.5rem;
+    width: 255px;
+    height:48px;
+    background: #ECEDF0;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.sidebar-row-txt{
+    margin-left: 0.5rem;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color:#767676;
+}
+.sidebar-rows:hover * {
+    cursor: pointer;
+    
+    color:red;
+    
+}
+.sidebar-rows:hover{
+    border-left: solid 5px red;
+}
+#txt-change-class{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+width:197px;
+width: 175px;
+height: 40px;
+height: 35px;
+margin-left: 17px;
+margin-top: 0px;
+margin-bottom: 1.5rem;
+background: #FFFFFF;
+border: 1px solid #EE4344;
+box-sizing: border-box;
+border-radius: 2px;
+font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #EE4344;
+}
+
+.icon{
+    width:22px;
+    height:22px;
+    display: inline-block;
+    background-size: cover;
+    margin-left: 17px;
+    stroke: red;
+}
+.icon :hover{
+    
+}

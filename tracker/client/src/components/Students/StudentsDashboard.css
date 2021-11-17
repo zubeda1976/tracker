@@ -1,0 +1,9 @@
+#student-dashboard-container{
+    width:82.4%;
+    height:auto;
+    background: #F7F8FC;  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
